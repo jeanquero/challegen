@@ -1,0 +1,11 @@
+.profile-menu .cdk-overlay-pane::before{
+    width: 0 !important;
+    height: 0 !important;
+    border-left: 8px solid transparent !important;
+    border-right: 8px solid transparent !important;
+    border-bottom: 15px solid #5E35B1 !important;
+    content: " " !important;
+    position: absolute !important;
+    top: 10px !important;
+    animation: fadeInRightBig 0.75s !important;
+   }
